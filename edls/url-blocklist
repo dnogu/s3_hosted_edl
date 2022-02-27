@@ -1,0 +1,3 @@
+*.company.com   #Match all subdomians of a url i.e. eng.tools.company.com, support.tools.company.com, docs.company.com
+^.company.com   #Carats match excat number of subdomains i.e. tools.company.com
+^.^.company.com #Carats match excat number of subdomains i.e. eng.tools.company.com

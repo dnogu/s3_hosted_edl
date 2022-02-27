@@ -1,0 +1,4 @@
+*.company.com #Match everything all subdomains or company.com
+*.click #Match all websites ending with a top-level domain of .click. 
+^company.com #Match company.com exactly
+^eng.company.com #Match subdomain eng.company.com exactly
