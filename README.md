@@ -8,11 +8,11 @@ This does not include the creating the S3 bucket and making it internally access
 
 
 ## Usage
-'''hcl
+```hcl
 vpc_id  = "vpc-*********"  /*Replace Stars with actual VPC ID*/
 tags = {
     Environment = "prod",
     }
 bucket_name = "The name of your bucket"
-'''
+```
 
